@@ -17,5 +17,7 @@
     "jsx": "react-jsx"
   },
   "include": ["src", "types/vite-env.d.ts"],
-  "references": [{ "path": "./tsconfig.node.json" }]
+  "references": [{ "path": "./tsconfig.node.json" }],
+  "extends": ["airbnb", "airbnb-typescript"],
+  
 }
