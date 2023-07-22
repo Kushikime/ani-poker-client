@@ -1,9 +1,11 @@
-import React from 'react'
-
-import './index.css';
+import { Button } from "../shared/ui";
 
 export const App = () => {
   return (
-    <h1>Hello world</h1>
-  )
+    <div className="app green">
+      <h1>Hello world</h1>
+      <br />
+      <Button size="large">Create room</Button>
+    </div>
+  );
 };
