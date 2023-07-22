@@ -9,4 +9,13 @@ export default defineConfig({
     environment: "jsdom",
     setupFiles: "./tests/setup.ts",
   },
+  css: {
+    preprocessorOptions: {
+      less: {
+        math: "always",
+        relativeUrls: true,
+        javascriptEnabled: true,
+      },
+    },
+  },
 });

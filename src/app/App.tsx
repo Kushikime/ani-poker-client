@@ -1,5 +1,11 @@
-import './index.css';
+import { Button } from "../shared/ui";
 
-export default function App() {
-  return <h1>Hello world</h1>;
-}
+export const App = () => {
+  return (
+    <div className="app green">
+      <h1>Hello world</h1>
+      <br />
+      <Button size="large">Create room</Button>
+    </div>
+  );
+};
