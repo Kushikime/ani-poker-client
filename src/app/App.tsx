@@ -4,6 +4,6 @@ import './index.css';
 
 export const App = () => {
   return (
-    <div>Hello world</div>
+    <h1>Hello world</h1>
   )
 };
