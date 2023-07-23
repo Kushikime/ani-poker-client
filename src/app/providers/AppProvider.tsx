@@ -1,11 +1,10 @@
-import React from 'react'
-import { BrowserRouter } from 'react-router-dom'
-import { AppRouter } from './AppRouter'
+import { BrowserRouter } from 'react-router-dom';
+import { Router } from './Router';
 
 export const AppProvider = () => {
   return (
     <BrowserRouter>
-      <AppRouter/>
+      <Router />
     </BrowserRouter>
-  )
-}
+  );
+};

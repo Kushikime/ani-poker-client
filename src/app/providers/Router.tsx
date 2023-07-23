@@ -1,14 +1,12 @@
-import React from 'react';
 import { Navigate, Route, Routes } from 'react-router-dom';
 
 import { GuestGuard, AuthGuard } from '../../entities/session';
 
 import { HomePage } from '../../pages/home';
 import { NotFoundPage } from '../../pages/not-found';
-import { LoginPage } from '../../pages/login';
-import { RegisterPage } from '../../pages/register';
+import { AuthPage } from '../../pages/auth';
 
-export const AppRouter = () => {
+export const Router = () => {
   //  chech Auth
   let isAuth = false;
 
@@ -24,18 +22,10 @@ export const AppRouter = () => {
         }
       />
       <Route
-        path="/login"
+        path="/auth"
         element={
           <AuthGuard isAuth={isAuth}>
-            <LoginPage />
-          </AuthGuard>
-        }
-      />
-      <Route
-        path="/register"
-        element={
-          <AuthGuard isAuth={isAuth}>
-            <RegisterPage />
+            <AuthPage />
           </AuthGuard>
         }
       />
