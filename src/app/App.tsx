@@ -1,11 +1,13 @@
-import { Button } from "../shared/ui";
+import { Button, Input } from '../shared/ui';
 
 export const App = () => {
   return (
     <div className="app green">
-      <h1>Hello world</h1>
-      <br />
-      <Button size="large">Create room</Button>
+      <div>
+        <Input type="text" placeholder="email or username" />
+        <Input type="password" placeholder="password" />
+        <Button size="medium">Create room</Button>
+      </div>
     </div>
   );
 };
