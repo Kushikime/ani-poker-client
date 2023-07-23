@@ -1,2 +1,2 @@
 // export
-export * from './Template.js';
+export * from './ui.js';
