@@ -2,9 +2,7 @@ import { Navigate, Route, Routes } from 'react-router-dom';
 
 import { GuestGuard, AuthGuard } from '../../entities/session';
 
-import { HomePage } from '../../pages/home';
-import { NotFoundPage } from '../../pages/not-found';
-import { AuthPage } from '../../pages/auth';
+import { AuthPage, HomePage, NotFoundPage } from '../../pages';
 
 export const Router = () => {
   //  chech Auth
