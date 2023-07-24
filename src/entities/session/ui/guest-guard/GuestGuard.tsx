@@ -11,7 +11,7 @@ export const GuestGuard: React.FunctionComponent<GuestGuardProps> = ({
 }) => {
 
   if (!isAuth) {
-    return <Navigate to="/login"/>
+    return <Navigate to="/auth"/>
   }
 
   return <div>{children}</div>;
