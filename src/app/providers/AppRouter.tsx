@@ -1,15 +1,9 @@
-import React from 'react';
+import { AuthGuard, GuestGuard } from '@entities/index';
+import { AuthPage, HomePage, NotFoundPage } from '@pages/index';
 import { Navigate, Route, Routes } from 'react-router-dom';
 
-import { GuestGuard, AuthGuard } from '../../entities/session';
-
-import { HomePage } from '../../pages/home';
-import { NotFoundPage } from '../../pages/not-found';
-import { LoginPage } from '../../pages/login';
-import { RegisterPage } from '../../pages/register';
-
 export const AppRouter = () => {
-  //  chech Auth
+  // TO-DO: Implement auth check
   let isAuth = false;
 
   return (
@@ -24,18 +18,10 @@ export const AppRouter = () => {
         }
       />
       <Route
-        path="/login"
+        path="/auth"
         element={
           <AuthGuard isAuth={isAuth}>
-            <LoginPage />
-          </AuthGuard>
-        }
-      />
-      <Route
-        path="/register"
-        element={
-          <AuthGuard isAuth={isAuth}>
-            <RegisterPage />
+            <AuthPage />
           </AuthGuard>
         }
       />

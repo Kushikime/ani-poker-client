@@ -1,0 +1,56 @@
+.textInput {
+  border: none;
+  text-align: center;
+  background-color: transparent;
+  &::placeholder {
+    color: var(--secondary-text-color);
+    text-align: center;
+  }
+  &:focus,
+  &:focus-visible {
+    outline: none;
+  }
+  padding: 10px 25px;
+}
+
+.small {
+}
+
+.medium {
+  width: 400px;
+  height: 50px;
+  min-width: 400px;
+  min-height: 50px;
+  font-size: 18px;
+}
+
+.large {
+  width: 400px;
+  height: 50px;
+}
+
+.inputWrapper {
+  background-color: rgba(217, 217, 217, 0.6);
+  border-radius: 3px;
+  overflow: hidden;
+  padding: 0px 10px;
+  position: relative;
+  margin-bottom: 30px;
+  min-height: 50px;
+}
+
+.inputContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.imageContainer {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width: 40px;
+  justify-content: center;
+  position: absolute;
+  left: 10px;
+}

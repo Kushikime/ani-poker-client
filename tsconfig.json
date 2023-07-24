@@ -11,10 +11,17 @@
     "forceConsistentCasingInFileNames": true,
     "module": "ESNext",
     "moduleResolution": "Node",
+    "strictNullChecks": true,
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react-jsx"
+    "jsx": "react-jsx",
+    "baseUrl": ".",
+    "paths": {
+      "@components/*": ["src/shared/ui/*"],
+      "@entities/*": ["src/entities/*"],
+      "@pages/*": ["src/pages/*"]
+    }
   },
   "include": ["src", ".eslintrc.cjs", ".prettierrc.cjs", "types/vite-env.d.ts"],
   "references": [{ "path": "./tsconfig.node.json" }]
