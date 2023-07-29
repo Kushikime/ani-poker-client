@@ -54,7 +54,6 @@ Welcome to the ani-poker-client repository! This project serves as the frontend 
 - [React Hook Forms](https://react-hook-form.com/)
 - [Yup](https://github.com/jquense/yup)
 - [Vite](https://vitejs.dev/)
-- [Socket.io](https://socket.io/)
 
 ## Getting Started
 
@@ -130,6 +129,5 @@ We extend our heartfelt gratitude to the following projects and communities for 
 - React Hook Forms
 - Yup
 - Vite
-- Socket.io
 
 Thank you for your interest in ani-poker-client! Embrace the thrill of poker and enjoy an unforgettable gaming experience. If you have any questions or suggestions, please feel free to open an issue or reach out to us. Happy gaming!
