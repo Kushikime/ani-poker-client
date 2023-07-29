@@ -1,5 +1,14 @@
 # ani-poker-client
 
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/yourusername/ani-poker-server/blob/master/LICENSE)
+[![React](https://img.shields.io/badge/React-17%2B-61DAFB)](https://reactjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-4.4%2B-3178C6)](https://www.typescriptlang.org/)
+[![Redux Toolkit](https://img.shields.io/badge/Redux_Toolkit-1.6%2B-764ABC)](https://redux-toolkit.js.org/)
+[![React Router DOM](https://img.shields.io/badge/React_Router_DOM-6.0%2B-CA4245)](https://reactrouter.com/)
+[![React Hook Forms](https://img.shields.io/badge/React_Hook_Forms-7.15%2B-FF385C)](https://react-hook-form.com/)
+[![Yup](https://img.shields.io/badge/Yup-0.32%2B-FFC107)](https://github.com/jquense/yup)
+[![Vite](https://img.shields.io/badge/Vite-2.6%2B-646CFF)](https://vitejs.dev/)
+
 ani-poker-client is a beautifully crafted frontend web application for an exhilarating poker game. Experience the thrill of poker with real-time updates, fluid gameplay, and a user-friendly interface.
 
 ## Table of Contents
